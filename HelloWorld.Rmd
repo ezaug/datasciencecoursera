@@ -1,0 +1,19 @@
+---
+title: "Hello World"
+author: "XXX"
+date: "2023-05-26"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## This is a markdown file
+
+```{r}
+x <- "Hello World"
+print(x)
+```
+
+*Happy Coding!*
